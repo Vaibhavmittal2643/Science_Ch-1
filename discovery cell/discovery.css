@@ -1,0 +1,45 @@
+#p2{
+  margin-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: center; 
+  font-weight: bold;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Copperplate Gothic;
+    color:#5CDB95;
+    background-color: #05386B;
+    width:600px;
+    text-align: center;
+    margin-left: 360px;
+    margin-top: 30px;
+  }
+  body{
+    text-align: center;
+    background-color: white;
+  }
+  p{
+    font-weight: 700;
+    font-size:35px;
+    font-family: Kristen ITC;
+    color:darkmagenta;
+    margin-right: 300px;
+  }
+  #imgframe1{
+    float: right;
+    margin-top: -550px;
+    width:250px;
+    height: 300px;
+    border: none;
+  }
+  #imgframe2{
+    float: right;
+    margin-top: -250px;
+    width:250px;
+    height: 300px;
+    border: none;
+  }
+  

@@ -1,0 +1,65 @@
+#h12{
+    font-size: 50px;
+    background-color:#05386B;
+    font-family: Copperplate Gothic;
+    color: #5CDB95;
+    width: 450px;
+    margin-left:450px;
+    text-align: center;
+}
+body{
+    background-color: white;
+    
+}
+h3{
+    font-weight: bold;
+    font-size: 33px;
+    color:white;
+    text-align: left;
+    background-color: #05386B;
+    width: 170px;
+    padding: 5px;
+}
+li{
+    font-size : 33px;
+    color: #05386B;
+    
+}
+#nucleus{
+    width:120px;
+}
+#cellmembrane{
+    width: 240px;
+}
+#imgframe1{
+    float: right;
+    margin-top:-720px;
+    margin-left: 500px;
+    width: 425px;
+    height: 380px;
+    border: none;
+  }
+
+#pnucleus{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Kristen ITC;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: darkmagenta;
+    margin-right:0px;
+  } 
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Kristen ITC;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: darkmagenta;
+    margin-right: 410px;
+    
+}
+#pcytoplasm{
+    margin-right: 0px;
+}

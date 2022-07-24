@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-color: #5CDB95;
+    overflow-x: hidden;
+}
+.menu{
+    list-style: none;
+    position:relative;
+    top:10px;
+    cursor:pointer;
+    width: 100%;
+    margin-top: 50px;
+    color:white;
+    background-color: white;
+    width: fit-content;
+}
+.link{
+    display:inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:Andale Mono, monospace;
+    font-size: 40px;
+    color:#379683;
+}
+.link:hover
+{
+    
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:#379683;
+    
+}
+#main_frame{
+    margin-top: 50px;
+    border: none;
+}
+#logo{
+    float: left;
+    height:70px;
+    width: 125px;
+}
+#heading{
+    font-size:65px;
+    color:#05386B;
+}
+#first{
+    word-spacing:-8px;
+    letter-spacing: 0px;
+}
+.submenu{
+    display: none;
+}
+.div1 ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-left: 750px;
+    background-color:#379683;
+    height: 140px;
+}
+.div1 ul li:hover .submenu ul{
+    display: block;
+}
+.div1 ul li:hover .submenu ul li{
+    width: 330px;
+    padding: 10px;
+    border-bottom:2px dotted #fff;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.div1 ul li:hover .submenu ul li:last-child{
+    border-bottom: none;
+}
+.submenu ul li a{
+    color:#fff;
+}
+#parts{
+    width:1000px;
+}

@@ -1,0 +1,47 @@
+body{
+ text-align: center; 
+ background-color: white;
+  overflow: hidden;  
+}
+    
+    img{
+    width:800px;
+    height:325px;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Kristen ITC;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: darkmagenta;
+}
+h3{
+    font-weight: bold;
+    font-size: 31px;
+    color:white;
+    text-align: left;
+    background-color: #05386B;
+    width: 180px;
+    padding: 5px;
+}
+li{
+    font-size : 31px;
+    color: #05386B;
+    
+}
+   
+h1{
+    font-size: 50px;
+    background-color:#05386B;
+    font-family: Copperplate Gothic;
+    color: #5CDB95;
+    width: 400px;
+    margin-left:470px;
+}
+h2{
+    color:#05386B ;
+    font-weight: bold;
+    margin-left: 55px;
+    font-size: 35px;
+}

@@ -1,0 +1,29 @@
+<html>
+   <head>
+       <title>
+           Discovery of Cell
+
+       </title>
+       <link rel="stylesheet" type="text/css" href="discovery.css">
+   </head> 
+
+   <body>
+    <h1>Discovery of Cell</h1>
+    <p id="p2">It was only after the advent of optical instruments,
+        in the seventheeth century,that the cell was discovered and its basic features were discovered. </p>
+        <p id="p2">Robert Hooke was the first scientist who, in 1665, observed thin slices of cork through his self designed
+            microscope. He observed that they had honey comb like structures consisting of little compartments.
+            It was later explained that these 'compartments' were actually dead cells bounded by a cell wall.
+        </p>
+
+        <iframe src="robert.jpg" id="imgframe1"></iframe>
+        <iframe src="cell.jpg" id="imgframe2"></iframe>
+        
+        <script>
+            var iframe = document.getElementById("main_frame");
+            iframe.onload = function(){
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+            }
+            </script>
+   </body>
+</html>

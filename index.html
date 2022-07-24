@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>THE CELL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="heading">THE CELL- ITS STRUCTURE AND ITS FUNCTIONS</h1>
+
+    </div>
+
+
+
+
+
+
+    <center>
+    <div class="div1">
+        <ul class="menu">
+            <li class="link"><a href="intro.html" id="first" target="frame" >ABOUT CELL</a></li>
+         <li class="link"><a href="discovery cell/discovery.html" target="frame">DISCOVERY</a></li>
+         <li class="link"><a href="SHAPE/shape,size,number.html" target="frame">VARIATIONS</a></li>
+         <li class="link"></i><a href="#">PARTS</a>
+
+        
+            <div class="submenu">
+                <ul>
+                    <li>
+                        <a id="parts" href="parts/parts.html" target="frame">Other Parts</a>
+                    </li>
+    
+                    <li>
+                        <a href="organelle/organelle.html" target="frame">Cell Organelles</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </li>
+         <li class="link"><a href="compare/compare.html" target="frame">COMPARISION</a></li>
+        </ul>
+    </div>
+
+    <iframe src="intro.html" id="main_frame" width="85%"  name="frame" border="0"></iframe>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var iframe = document.getElementById("main_frame");
+        iframe.onload = function(){
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+p{
+    font-size: 30px;
+    color:darkmagenta;
+    font-weight:700;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+#img1{
+    padding-right: 50px;
+    
+}
+img{
+    width: 500px;
+    height: 350px;
+}
+body{
+    background-color: white;
+    overflow: hidden;
+}
